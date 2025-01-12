@@ -1,0 +1,96 @@
+body{
+
+   text-align: center;
+    background-color:#3b0f2a;
+    background-image: url(/eagle.jpg);
+
+    background-size: cover;
+ 
+
+}
+/*.top{
+    width: 95vh;
+    display: flex;
+   
+    flex-direction: row-reverse; 
+    justify-content:space-between;
+    gap: 90px;
+}*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.game{
+
+height: 60vh;
+width: 60vh;
+display: flex;
+flex-wrap: wrap;
+
+justify-content: center;
+gap: 8px;
+align-items: center;
+}
+.box{
+    background-color: black;
+   /* background-color: #6B5CA5;*/
+    height: 17vmin;
+    width:17vmin;
+    border-radius: 5px;
+    border-color:#71A9F7;
+    box-shadow: 0 0 2em rgba(70,100,150,0.87);
+    font-size: 10vmin;
+    color: #C6D8FF;
+}
+h1{
+font-family:cursive;
+text-decoration: dashed;
+    color:powderblue
+}
+.reset{
+   margin: 20px;
+    background-color: #71A9F7;
+    border-radius: 9px;
+height: 40px;
+text-transform: uppercase;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+h3{
+    font-size: 50px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ display: none;
+}
+.newbtn{
+    display: none;  
+}
+/*.menu{
+
+    height: 80vh;
+    width: 20vh;
+    background-color:#B27092;
+    display: flex;
+font-size: 20px;
+font-family: monospace;
+    flex-direction: column;
+    visibility: hidden;
+
+  
+}*/
+.content{
+    height: 50vmin;
+
+}
+h2{
+    color: #71A9F7;
+}
+.newbtn{
+    background-color: #71A9F7;
+    border-radius: 7px;
+height: 40px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
