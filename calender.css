@@ -1,0 +1,47 @@
+body{
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(100deg, #BC7C9C,#f18d21 );
+}
+ .calender{
+    height:250px ;
+    width: 250px;
+margin-left: 500px;
+margin-top: 7rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    
+ }
+ .left,.right{
+    height: 100%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+ }
+ #date{
+    font-size: 2.5rem;
+    margin-top: 0.6rem;
+
+ }
+ #day{
+    font-size: 1.2rem;
+
+ }
+ .left{
+    width: 56%;
+
+    
+ }
+ .right{
+    width: 44%;
+    background-color: orangered;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius:2rem ;
+    font-size: 1.4rem;
+    color: white;
+ }
